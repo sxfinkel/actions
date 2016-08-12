@@ -1,0 +1,46 @@
+#example
+// Select OK if alert is present 
+ new AlertAction().setOption(AlertAction.Option.Accept).doAction(browserSession);
+ 
+ #constructor summary
+ AlertAction()
+Instantiates a new alert action.
+ AlertAction(AlertAction.Option option)
+Instantiates a new alert action setting the option.
+
+
+Method Summary
+Modifier and Type
+Method and Description
+void	doAction(org.openqa.selenium.WebDriver webDriver)
+Action implementation.
+AlertAction	setOption(AlertAction.Option option)
+Sets the Option.
+
+
+Constructor Detail
+AlertAction
+public AlertAction()
+Instantiates a new alert action.
+AlertAction
+public AlertAction(AlertAction.Option option)
+Instantiates a new alert action setting the option.
+Parameters:
+option - the option.
+      
+#Method Detail
+setOption
+public AlertAction setOption(AlertAction.Option option)
+Sets the Option.
+#Parameters:
+option - the option for the alert message.
+Returns:
+AlertAction.
+#doAction
+public void doAction(org.openqa.selenium.WebDriver webDriver)
+Action implementation.
+#Specified by:
+doAction in interface com.aexp.qa.testframework.Action
+#Parameters:
+webDriver - the browser session.
+ 
